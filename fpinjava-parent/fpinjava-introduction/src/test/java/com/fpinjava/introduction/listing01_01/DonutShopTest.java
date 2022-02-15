@@ -17,5 +17,4 @@ public class DonutShopTest {
     buyDonut(crediCard);
     assertEquals(Donut.price * 2, crediCard.getTotal());
   }
-
 }
